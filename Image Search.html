@@ -1,31 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Image Search</title>
         <style>
             .container{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                
-            }
-            .buttons{
-                display: flex;
-                justify-content: center;
-    
-            }
-            button:hover{ 
-                border:black;
             }
             .top{
                 display: flex;
-
                 justify-content: center;
                 margin-left: auto;
                 margin-right: 0px;
                 width: 350px;
-                            }
-                            a {
+            }
+            .buttons{
+                display: flex;
+                justify-content: center;
+            }
+            a {
         text-decoration: none;
     }
       
@@ -33,7 +27,7 @@
     </head>
     <body>
         <div class="top">
-            <a href= "Image Search.html"><p style="width: 150px;
+            <a href= "index.html"><p style="width: 150px;
             height: 15px;
             background-color: rgb(36, 139, 248);
             border: rgb(40, 139, 252) solid 2px;
@@ -44,7 +38,7 @@
             padding: 12px;
             text-decoration: none;
             margin-right:15px;
-            font-size: small ;">Image Search</p></a>
+            font-size: small ;">Back to Google Search</p></a>
             
             <a href= "Advanced Search copy.html"><p style="width: 150px;
             height: 15px;
@@ -59,23 +53,22 @@
             margin-right:80px;
             font-size: small ;"> Advanced Search</p></a>
         </div>
-       <img src="download.png" style=" height: 100px; width:auto; display: block; margin: auto; margin-bottom: 50px;">
-    <div class = "container">
-        <form action="https://google.com/search">
-            <input type="text" name="q" style= "
-                border-radius: 25px;                
-                padding: 15px;
-                width: 500px;
-                height: 10px;
-                margin-bottom: 20px;
-                border-color: rgb(220, 220, 220);"
-                >
-            <div class = "buttons">
-            <input type="submit" value="Google Search" style="display:inline-block; width: 130px; height: 35px; margin: 5px; border:none;">
-            <input type="submit" name="btnI" value="I'm Feeling Lucky" style="display:inline-block; width: 130px; height: 35px; margin: 5px; border: none;" > 
-            </div>
+        <img src="download.png" style=" height: 100px; width:auto; display: block; margin: auto; margin-bottom: 50px;">
+        <div class = "container">
+            <form action="https://google.com/search">
+                <input type="text" name="q" style= "
+                    border-radius: 25px;                
+                    padding: 15px;
+                    width: 500px;
+                    height: 10px;
+                    margin-bottom: 20px;
+                    border-color: rgb(220, 220, 220);"
+                    >
+                    <input type ="hidden" name="tbm" value="isch">
+                    <div class = "buttons">
+                <input type="submit" value="Image Search" style="display:inline-block; width: 150px; height: 35px; margin: 5px; border:none;"> 
+                </div>
         </form>
     </div>
     </body>
 </html>
-
